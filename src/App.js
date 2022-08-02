@@ -1,13 +1,14 @@
-import React, { Fragment } from "react"
-import { Navbar } from "./components"
+import React from "react"
+import { Navbar, Footer } from "./components"
 import Home from "./pages/Home"
 
 function App() {
   return (
-    <Fragment>
+    <div className="l-site">
       <Navbar />
       <Home />
-    </Fragment>
+      <Footer />
+    </div>
   )
 }
 
