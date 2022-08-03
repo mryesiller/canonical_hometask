@@ -2,13 +2,13 @@ import React from "react"
 
 const Card = ({ image, title, author, date, articleLink, authorLink }) => {
   return (
-    <div id="card-border" className="col-4 col-medium-3 p-card--highlighted">
+    <div className="col-4 col-medium-3 p-card--highlighted u-justify--space-evenly column">
       <div>
         <h5 className=" p-muted-heading">CLOUD AND SERVER</h5>
         <hr className="u-sv1" />
       </div>
       <img className="p-card__image" src={image} alt={title} />
-      <div className="p-card__content">
+      <div className="p-card__content ">
         <h3 className="p-heading--3 u-sv1">
           <a href={articleLink} className="p-link--soft">
             {title}
