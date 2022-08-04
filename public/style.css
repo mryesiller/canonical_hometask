@@ -10587,12 +10587,6 @@ table th[aria-sort]:hover {
 .u-align--bottom {
   margin-top: auto !important;
 }
-.u-align--space-between {
-  justify-content: space-between !important;
-}
-.u-align--space-evenly {
-  justify-content: space-evenly !important;
-}
 .u-align-text--center {
   margin-left: auto !important;
   margin-right: auto !important;
@@ -10615,36 +10609,91 @@ table th[aria-sort]:hover {
 .u-justify--center {
   display: flex;
   justify-content: center !important;
+  flex-direction: row;
 }
-.u-justify--center.column {
+.u-justify--center--col {
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+}
+.u-justify--left {
+  display: flex;
+  justify-content: left !important;
+  flex-direction: row;
+}
+.u-justify--left--col {
+  display: flex;
+  justify-content: left !important;
+  flex-direction: column;
+}
+.u-justify--right {
+  display: flex;
+  justify-content: right !important;
+  flex-direction: row;
+}
+.u-justify--right--col {
+  display: flex;
+  justify-content: right !important;
   flex-direction: column;
 }
 .u-justify--flex-start {
   display: flex;
   justify-content: flex-start !important;
+  flex-direction: row;
 }
-.u-justify--flex-start.column {
+.u-justify--flex-start--col {
+  display: flex;
+  justify-content: flex-start !important;
   flex-direction: column;
 }
 .u-justify--flex-end {
   display: flex;
   justify-content: flex-end !important;
+  flex-direction: row;
 }
-.u-justify--flex-end.column {
+.u-justify--flex-end--col {
+  display: flex;
+  justify-content: flex-end !important;
   flex-direction: column;
 }
 .u-justify--space-between {
   display: flex;
   justify-content: space-between !important;
+  flex-direction: row;
 }
-.u-justify--space-between.column {
+.u-justify--space-between--col {
+  display: flex;
+  justify-content: space-between !important;
   flex-direction: column;
 }
 .u-justify--space-evenly {
   display: flex;
   justify-content: space-evenly !important;
+  flex-direction: row;
 }
-.u-justify--space-evenly.column {
+.u-justify--space-evenly--col {
+  display: flex;
+  justify-content: space-evenly !important;
+  flex-direction: column;
+}
+.u-justify--space-around {
+  display: flex;
+  justify-content: space-around !important;
+  flex-direction: row;
+}
+.u-justify--space-around--col {
+  display: flex;
+  justify-content: space-around !important;
+  flex-direction: column;
+}
+.u-justify--stretch {
+  display: flex;
+  justify-content: stretch !important;
+  flex-direction: row;
+}
+.u-justify--stretch--col {
+  display: flex;
+  justify-content: stretch !important;
   flex-direction: column;
 }
 @media (prefers-reduced-motion: reduce) {

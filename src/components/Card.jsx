@@ -2,7 +2,7 @@ import React from "react"
 
 const Card = ({ image, title, author, date, articleLink, authorLink }) => {
   return (
-    <div className="col-4 col-medium-3 p-card--highlighted u-justify--space-evenly column">
+    <div className="col-4 col-medium-3 p-card--highlighted u-justify--space-evenly--col">
       <div>
         <h5 className=" p-muted-heading">CLOUD AND SERVER</h5>
         <hr className="u-sv1" />

@@ -3,7 +3,4 @@ body {
 }
 #card-border {
   border-top: 3px solid #77216f;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
